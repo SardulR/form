@@ -15,7 +15,7 @@ app.use(cors());
 app.use(express.json());
 
 // Connect to MongoDB
-const mongoURI = 'mongodb+srv://<db_username>:<hello>@cluster0.xxla4.mongodb.net/<db_name>?retryWrites=true&w=majority';
+const mongoURI = 'mongodb+srv://<shardul>:<hello>@cluster0.xxla4.mongodb.net/<db_name>?retryWrites=true&w=majority';
 
 mongoose.connect(mongoURI, {
   useNewUrlParser: true,
